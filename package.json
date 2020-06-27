@@ -1,0 +1,19 @@
+{
+  "name": "convect.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RusuTraianCristian/convect.dev.git"
+  },
+  "author": "Rusu Traian Cristian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RusuTraianCristian/convect.dev/issues"
+  },
+  "homepage": "https://github.com/RusuTraianCristian/convect.dev#readme"
+}
