@@ -1,10 +1,16 @@
 import React, { Fragment } from 'react';
 import './App.css';
+import TopLeft from './TopLeft';
+import BottomRight from './BottomRight';
 
 const App = () => {
     return (
         <Fragment>
-            this is the APP component..
+            <div id = "App">
+                <a href = "https://convect.dev"><div className = "logo"></div></a>
+                <TopLeft />
+                <BottomRight />
+            </div>
         </Fragment>
     );
 }

@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "babel": {
-      "presets": [
-          "@babel/preset-env",
-          "@babel/preset-react"
-      ]
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
   },
   "scripts": {
     "test": "jest --coverage",
     "create": "webpack",
+    "build": "webpack --mode production",
     "start": "webpack-dev-server --open"
   },
   "repository": {
@@ -25,6 +26,11 @@
   },
   "homepage": "https://github.com/RusuTraianCristian/convect.dev#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-regular-svg-icons": "^5.13.1",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "build": "^0.1.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
